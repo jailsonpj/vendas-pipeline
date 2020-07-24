@@ -13,7 +13,7 @@ Na pasta **raw_data**, contém os arquivos de dados em formatos de : txt, csv, x
 
 
 # Execução do programa
-Para execução do processamento, basta executar o binário `main` com o seguinte comando no terminal:
+Para execução do processamento, basta executar o binário `main` que está na pasta **process-data** com o seguinte comando no terminal:
 
 - `./main`
 
