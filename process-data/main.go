@@ -8,15 +8,6 @@ import (
 	"process-data/elasticservice"
 )
 
-// //Vendas struct insert elasticsearch
-// type Vendas struct {
-// 	Data string `csv:"data"`
-// 	Escrv int `csv:"escrv"`
-// 	Material int64 `csv:"material"`
-// 	GrpMerc int64 `csv:"grp.merc."`
-// 	QtdFaturd int `csv:"qnt.faturd"`
-// }
-
 func readCSV(filename string)([]*elasticservice.Vendas, error){
 	in, err := os.Open(filename)
     if err != nil {

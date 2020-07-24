@@ -13,7 +13,9 @@ import (
 var tag string = "[Elastic Service]"
 var client *elastic.Client 
 var index string = "vendas-analysis"
-var url string = "http://localhost:9200"
+var url string = "https://c01160965fdb47918c3d06933a6df089.us-east-1.aws.found.io:9243"
+var user string = "elastic"
+var passwd string = "YgcFDLqEuhvxafts9Ulv8KHJ"
 var ctx = context.Background()
 
 
@@ -33,6 +35,7 @@ func Init(){
 		// Instantiate a new Elasticsearch client object instance
 		clientES, err := elastic.NewClient(
 			elastic.SetURL(url),
+			elastic.SetBasicAuth(user, passwd),
 			elastic.SetHealthcheckInterval(1*time.Minute),
 			elastic.SetSniff(false),
 		)
