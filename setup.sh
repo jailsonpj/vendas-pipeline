@@ -17,7 +17,7 @@ docker stop kibana
 
 
 # create network
-docker network create smti
+docker network create smt
 
 log "Creating new containers..."
 
