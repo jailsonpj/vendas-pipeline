@@ -1,7 +1,7 @@
 # Processamento de Dados
 O projeto tem como principal função ler um arquivo de dados contendo informações de vendas, processar essas informações e armazená-las em uma ferramenta de busca chamado elasticsearch. O diagrama a seguir apresenta o fluxo do processamento dos arquivos.
 
-![](diagram-process.png)
+![](./image/diagram-process.png)
 
 # Processamento de arquivos
 O processamento dos arquivos disponiblizados pelo Bemol, acotecem no arquivo `main.go` que está localizado na pasta `process-data`. A pasta `process-data` é composta por uma subpasta chamada `elasticservice` e outra denominada `raw_data`.
