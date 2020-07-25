@@ -6,7 +6,7 @@ O projeto tem como principal função ler arquivos de dados, contendo informaç�
 # Processamento de arquivos
 O processamento dos arquivos disponiblizados pelo Bemol, acotecem no arquivo `main.go` que está localizado na pasta `process-data`. A pasta `process-data` é composta por dois subdiretórios , **elasticservice** e **raw_data** .
 
-Na pasta **elasticsearch**, contém um arquivo `elasticservice.py` responsável pela conexão e inserção dos dados no elasticsearch.
+Na pasta **elasticsearch**, contém um arquivo `elasticservice.go` responsável pela conexão e inserção dos dados no elasticsearch.
 
 
 Na pasta **raw_data**, contém os arquivos de dados em formatos de : txt, csv, xlsx e html.
